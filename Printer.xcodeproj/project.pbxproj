@@ -14,6 +14,7 @@
 		9F477A5C1D3769AA00AE2EB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F477A5A1D3769AA00AE2EB0 /* LaunchScreen.storyboard */; };
 		9F477A671D3769AA00AE2EB0 /* PrinterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F477A661D3769AA00AE2EB0 /* PrinterTests.swift */; };
 		9F477A721D3769AB00AE2EB0 /* PrinterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F477A711D3769AB00AE2EB0 /* PrinterUITests.swift */; };
+		9F477A801D3781E100AE2EB0 /* PrinterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F477A7F1D3781E100AE2EB0 /* PrinterController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9F477A6D1D3769AB00AE2EB0 /* PrinterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrinterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F477A711D3769AB00AE2EB0 /* PrinterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterUITests.swift; sourceTree = "<group>"; };
 		9F477A731D3769AB00AE2EB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F477A7F1D3781E100AE2EB0 /* PrinterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrinterController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				9F477A581D3769AA00AE2EB0 /* Assets.xcassets */,
 				9F477A5A1D3769AA00AE2EB0 /* LaunchScreen.storyboard */,
 				9F477A5D1D3769AA00AE2EB0 /* Info.plist */,
+				9F477A7F1D3781E100AE2EB0 /* PrinterController.swift */,
 			);
 			path = Printer;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F477A801D3781E100AE2EB0 /* PrinterController.swift in Sources */,
 				9F477A541D3769AA00AE2EB0 /* ViewController.swift in Sources */,
 				9F477A521D3769AA00AE2EB0 /* AppDelegate.swift in Sources */,
 			);
@@ -482,6 +486,7 @@
 				9F477A781D3769AB00AE2EB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F477A791D3769AB00AE2EB0 /* Build configuration list for PBXNativeTarget "PrinterTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				9F477A7B1D3769AB00AE2EB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F477A7C1D3769AB00AE2EB0 /* Build configuration list for PBXNativeTarget "PrinterUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				9F477A7E1D3769AB00AE2EB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
